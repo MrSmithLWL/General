@@ -22,7 +22,7 @@ This will now delete all files that start with the name Internet29bd18b in all f
 ```
 
 Code <br>
-groupmove.ps1<br>
+RecursiveDelete.ps1<br>
 ````
 $sharepath=read-host "Path to user fileshare, Example:\\server\share\"
 $files=read-host "Starting Name of files Example: Internet29bd18b"
